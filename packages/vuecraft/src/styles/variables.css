@@ -1,0 +1,8 @@
+:root {
+  --vc-color-primary: #409eff;
+  --vc-color-success: #67c23a;
+  --vc-color-warning: #e6a23c;
+  --vc-color-danger: #f56c6c;
+  --vc-color-info: #909399;
+  --vc-border-radius: 4px;
+}

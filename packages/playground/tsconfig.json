@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "paths": {
+      "vuecraft": ["../vuecraft/src/index.ts"],
+      "vuecraft/*": ["../vuecraft/src/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.vue", "../vuecraft/src/**/*.ts", "../vuecraft/src/**/*.vue"]
+}
